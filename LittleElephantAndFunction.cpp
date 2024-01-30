@@ -5,17 +5,26 @@
  #include<math.h>
  #include<map>
  using namespace std;
+void littleElephant(vector<int>&arr,int x)
+{
+    if(x==1){
+        return ;
+    }
+    swap(arr[x-1],arr[x-2]);
 
+    littleElephant(arr,x-1);
+
+}
 int main()
 {
     int n;
     cin>>n;
     vector<int>arr;
-    for(int i = 1;i<n;i++)
+    for(int i = 1;i<=n;i++)
     {
-        arr.push_back(i+1);
+        arr.push_back(i);
     }
-    arr.push_back(1);
+    littleElephant(arr,n);
     for(int i = 0;i<arr.size();i++)
     {
         cout<<arr[i]<<" ";
