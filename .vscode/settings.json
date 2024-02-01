@@ -5,6 +5,8 @@
         "iostream": "cpp",
         "vector": "cpp",
         "cstdlib": "cpp",
-        "xutility": "cpp"
+        "xutility": "cpp",
+        "compare": "cpp",
+        "xstddef": "cpp"
     }
 }
