@@ -7,6 +7,14 @@
         "cstdlib": "cpp",
         "xutility": "cpp",
         "compare": "cpp",
-        "xstddef": "cpp"
+        "xstddef": "cpp",
+        "deque": "cpp",
+        "initializer_list": "cpp",
+        "list": "cpp",
+        "queue": "cpp",
+        "type_traits": "cpp",
+        "xhash": "cpp",
+        "xstring": "cpp",
+        "xtree": "cpp"
     }
 }
